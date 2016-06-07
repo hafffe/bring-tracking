@@ -9,7 +9,9 @@
     "email": "aronhafner@gmail.com",
     "url": "aronhafner.com"
   },
-  "bin": "cli.js",
+  "bin": {
+  	"bring": "cli.js"
+  },
   "engines": {
     "node": ">=4"
   },
