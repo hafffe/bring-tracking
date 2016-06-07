@@ -1,6 +1,6 @@
 {
   "name": "bring-tracking",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Track Bring letters, parcels and pallets by their item ID number.",
   "license": "MIT",
   "repository": "alonalon/bring-tracking",
@@ -26,12 +26,12 @@
     "cli-app",
     "cli",
     "package",
-	"tracking",
-	"shipment",
-	"parcel",
-	"pallet",
-	"letter",
-	"post"
+    "tracking",
+    "shipment",
+    "parcel",
+    "pallet",
+    "letter",
+    "post"
   ],
   "dependencies": {
     "arrify": "^1.0.1",
