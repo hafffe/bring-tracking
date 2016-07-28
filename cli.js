@@ -9,10 +9,15 @@ const fn = require('./');
 const cli = meow([
 	'Usage',
 	'  $ bring [id]',
+	'Options',
+	' -l, --lang  Default is en. Allowed values are en, sv, no and da',
 	'',
 	'Examples',
-	'  $ bring 373400014506461747'
+	'  $ bring 373400014506461747 -l sv'
 ], {
+	alias: {
+		l: 'locale'
+	},
 	string: ['_']
 });
 
@@ -46,7 +51,7 @@ const print = obj => {
 	getEvents(obj.eventSet);
 };
 
-fn(cli.input[0]).then(res => {
+fn(cli.input[0], {locale: cli.flags.locale}).then(res => {
 	spinner.stop();
 
 	if (res.consignmentSet[0].error) {

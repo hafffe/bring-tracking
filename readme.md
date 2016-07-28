@@ -43,6 +43,9 @@ $ bring --help
   Usage
     bring [ID]
 
+  Options
+    -l, --lang    Default is en. Allowed values are en, sv, no and da
+
   Examples
     $ bring 123456789
 ```
