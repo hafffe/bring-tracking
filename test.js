@@ -2,5 +2,5 @@ import test from 'ava';
 import fn from './';
 
 test('bring', async t => {
-	t.is(typeof await fn('373400014506461747'), 'object');
+	t.is(typeof await fn('373400014506461747', {locale: 'en'}), 'object');
 });

@@ -10,7 +10,7 @@ const cli = meow([
 	'Usage',
 	'  $ bring [id]',
 	'Options',
-	' -l, --lang  Default is en. Allowed values are en, sv, no and da',
+	' -l, --locale  Default is en. Allowed values are en, sv, no and da',
 	'',
 	'Examples',
 	'  $ bring 373400014506461747 -l sv'
