@@ -1,6 +1,6 @@
 {
   "name": "bring-tracking",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Track Bring letters, parcels and pallets by their item ID number.",
   "license": "MIT",
   "repository": "alonalon/bring-tracking",
