@@ -1,6 +1,6 @@
 import test from 'ava';
-import fn from './';
+import m from '.';
 
 test('bring', async t => {
-	t.is(typeof await fn('373400014506461747', {locale: 'en'}), 'object');
+	t.is(typeof await m('373400014506461747', {locale: 'en'}), 'object');
 });
