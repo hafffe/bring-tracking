@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save bring-tracking
+$ npm install bring-tracking
 ```
 
 

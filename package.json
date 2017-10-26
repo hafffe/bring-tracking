@@ -1,48 +1,48 @@
 {
-  "name": "bring-tracking",
-  "version": "1.0.0",
-  "description": "Track Bring letters, parcels and pallets by their item ID number.",
-  "license": "MIT",
-  "repository": "alonalon/bring-tracking",
-  "author": {
-    "name": "alonalon",
-    "email": "aronhafner@gmail.com",
-    "url": "aronhafner.com"
-  },
-  "bin": {
-    "bring": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js",
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "package",
-    "tracking",
-    "shipment",
-    "parcel",
-    "pallet",
-    "letter",
-    "post"
-  ],
-  "dependencies": {
-    "arrify": "^1.0.1",
-    "chalk": "^1.1.3",
-    "got": "^6.3.0",
-    "meow": "^3.7.0",
-    "ora": "^0.3.0",
-    "query-string": "^4.2.2"
-  },
-  "devDependencies": {
-    "ava": "^0.16.0",
-    "xo": "^0.16.0"
-  }
+	"name": "bring-tracking",
+	"version": "1.0.0",
+	"description": "Track Bring letters, parcels and pallets by their item ID number.",
+	"license": "MIT",
+	"repository": "alonalon/bring-tracking",
+	"author": {
+		"name": "alonalon",
+		"email": "aronhafner@gmail.com",
+		"url": "aronhafner.com"
+	},
+	"bin": {
+		"bring": "cli.js"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"package",
+		"tracking",
+		"shipment",
+		"parcel",
+		"pallet",
+		"letter",
+		"post"
+	],
+	"dependencies": {
+		"arrify": "^1.0.1",
+		"chalk": "^2.3.0",
+		"got": "^7.1.0",
+		"meow": "^3.7.0",
+		"ora": "^1.3.0",
+		"query-string": "^5.0.1"
+	},
+	"devDependencies": {
+		"ava": "^0.23.0",
+		"xo": "^0.18.2"
+	}
 }
